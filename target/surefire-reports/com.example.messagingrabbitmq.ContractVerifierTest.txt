@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.messagingrabbitmq.ContractVerifierTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.44 s <<< FAILURE! - in com.example.messagingrabbitmq.ContractVerifierTest
+validate_person_message_contract(com.example.messagingrabbitmq.ContractVerifierTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.example.messagingrabbitmq.ContractVerifierTest.validate_person_message_contract(ContractVerifierTest.java:24)
+
