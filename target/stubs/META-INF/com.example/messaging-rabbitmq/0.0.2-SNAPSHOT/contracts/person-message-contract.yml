@@ -2,10 +2,11 @@ label: sends-person-info
 input:
   triggeredBy: onUserIsOnline()
 outputMessage:
-  sentTo: spring-boot-exchange
+  sentTo: spring-boot
   body:
     firstName: John
     lastName: Smith
   headers:
     contentType: application/json
     __TypeId__: com.example.messagingrabbitmq.model.Person
+    amqp_receivedRoutingKey: foo

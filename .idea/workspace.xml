@@ -2,15 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9519399e-d619-44ba-8559-7e9c841980d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/Publisher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/model/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/BaseContractTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/contracts/person-message-contract.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/MessagingRabbitmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/MessagingRabbitmqApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/messagingrabbitmq/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/MessagingRabbitmqApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/MessagingRabbitmqApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/BaseContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/BaseContractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/messagingrabbitmq/MessagingRabbitmqApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/contracts/person-message-contract.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/contracts/person-message-contract.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/messagingrabbitmq/MessagingRabbitmqApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/messagingrabbitmq/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/messagingrabbitmq/Runner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/messagingrabbitmq/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-test-sources/contracts/com/example/messagingrabbitmq/ContractVerifierTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stubs/META-INF/com.example/messaging-rabbitmq/0.0.2-SNAPSHOT/contracts/person-message-contract.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.messagingrabbitmq.ContractVerifierTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.messagingrabbitmq.ContractVerifierTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/messagingrabbitmq/BaseContractTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/messagingrabbitmq/ContractVerifierTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/messagingrabbitmq/MessagingRabbitmqApplicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/contracts/person-message-contract.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +61,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -57,6 +79,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -82,7 +105,7 @@
       <recent name="com.example.messagingrabbitmq" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MessagingRabbitmqApplication">
+  <component name="RunManager" selected="JUnit.ContractVerifierTest">
     <configuration name="MessagingRabbitmqApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.messagingrabbitmq.MessagingRabbitmqApplication" />
       <module name="messaging-rabbitmq" />
@@ -92,6 +115,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseContractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="messaging-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.messagingrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.messagingrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.messagingrabbitmq.BaseContractTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractVerifierTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="messaging-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.messagingrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.messagingrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.messagingrabbitmq.ContractVerifierTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractVerifierTest.validate_person_message_contract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="messaging-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.messagingrabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.messagingrabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.example.messagingrabbitmq.ContractVerifierTest" />
+      <option name="METHOD_NAME" value="validate_person_message_contract" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,7 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseContractTest" />
         <item itemvalue="Application.MessagingRabbitmqApplication" />
+        <item itemvalue="JUnit.ContractVerifierTest.validate_person_message_contract" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583940415417</updated>
       <workItem from="1583940418501" duration="4147000" />
-      <workItem from="1583949081364" duration="12793000" />
+      <workItem from="1583949081364" duration="18367000" />
     </task>
     <servers />
   </component>
@@ -147,64 +218,76 @@
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="164" y="74" width="1101" height="707" key="#Project_Structure/0.23.1440.826@0.23.1440.826" timestamp="1583940896719" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1583960287938">
+    <state x="483" y="146" key="#xdebugger.evaluate" timestamp="1584044542982">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="483" y="146" key="#xdebugger.evaluate/0.23.1440.826@0.23.1440.826" timestamp="1584044542982" />
+    <state width="510" height="466" key="DebuggerActiveHint" timestamp="1584045248985">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="510" height="466" key="DebuggerActiveHint/0.23.1440.826@0.23.1440.826" timestamp="1584045248985" />
+    <state width="1398" height="272" key="GridCell.Tab.0.bottom" timestamp="1584045340158">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.0.bottom/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583952408980" />
     <state width="1398" height="252" key="GridCell.Tab.0.bottom/-621.-1417.2560.1417/0.23.1440.826@0.23.1440.826" timestamp="1583960287938" />
-    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583945025316" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1583960287938">
+    <state width="1398" height="272" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584045340158" />
+    <state width="1398" height="272" key="GridCell.Tab.0.center" timestamp="1584045340158">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.0.center/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583952408979" />
     <state width="1398" height="252" key="GridCell.Tab.0.center/-621.-1417.2560.1417/0.23.1440.826@0.23.1440.826" timestamp="1583960287938" />
-    <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1583945025315" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1583960287937">
+    <state width="1398" height="272" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1584045340158" />
+    <state width="1398" height="272" key="GridCell.Tab.0.left" timestamp="1584045340157">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.0.left/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583952408979" />
     <state width="1398" height="252" key="GridCell.Tab.0.left/-621.-1417.2560.1417/0.23.1440.826@0.23.1440.826" timestamp="1583960287937" />
-    <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1583945025315" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1583960287938">
+    <state width="1398" height="272" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1584045340157" />
+    <state width="1398" height="272" key="GridCell.Tab.0.right" timestamp="1584045340158">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.0.right/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583952408980" />
     <state width="1398" height="252" key="GridCell.Tab.0.right/-621.-1417.2560.1417/0.23.1440.826@0.23.1440.826" timestamp="1583960287938" />
-    <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1583945025316" />
-    <state width="2518" height="478" key="GridCell.Tab.1.bottom" timestamp="1583948408483">
-      <screen x="-621" y="-1417" width="2560" height="1417" />
+    <state width="1398" height="272" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1584045340158" />
+    <state width="1398" height="272" key="GridCell.Tab.1.bottom" timestamp="1584045340160">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.1.bottom/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583948408483" />
-    <state width="1398" height="237" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1583945025317" />
-    <state width="2518" height="478" key="GridCell.Tab.1.center" timestamp="1583948408482">
-      <screen x="-621" y="-1417" width="2560" height="1417" />
+    <state width="1398" height="272" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1584045340160" />
+    <state width="1398" height="272" key="GridCell.Tab.1.center" timestamp="1584045340159">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.1.center/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583948408482" />
-    <state width="1398" height="237" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1583945025316" />
-    <state width="2518" height="478" key="GridCell.Tab.1.left" timestamp="1583948408481">
-      <screen x="-621" y="-1417" width="2560" height="1417" />
+    <state width="1398" height="272" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1584045340159" />
+    <state width="1398" height="272" key="GridCell.Tab.1.left" timestamp="1584045340159">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.1.left/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583948408481" />
-    <state width="1398" height="237" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1583945025316" />
-    <state width="2518" height="478" key="GridCell.Tab.1.right" timestamp="1583948408482">
-      <screen x="-621" y="-1417" width="2560" height="1417" />
+    <state width="1398" height="272" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1584045340159" />
+    <state width="1398" height="272" key="GridCell.Tab.1.right" timestamp="1584045340160">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="2518" height="478" key="GridCell.Tab.1.right/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583948408482" />
-    <state width="1398" height="237" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1583945025317" />
+    <state width="1398" height="272" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1584045340160" />
     <state x="-228" y="-1328" key="SettingsEditor" timestamp="1583949163446">
       <screen x="-621" y="-1417" width="2560" height="1417" />
     </state>
     <state x="-228" y="-1328" key="SettingsEditor/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583949163446" />
     <state x="221" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1583940811784" />
+    <state width="720" height="412" key="XDebugger.FullValuePopup" timestamp="1584044900727">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="720" height="412" key="XDebugger.FullValuePopup/0.23.1440.826@0.23.1440.826" timestamp="1584044900727" />
     <state x="352" y="-876" key="com.intellij.ide.util.TipDialog" timestamp="1583949080868">
       <screen x="-621" y="-1417" width="2560" height="1417" />
     </state>
     <state x="352" y="-876" key="com.intellij.ide.util.TipDialog/-621.-1417.2560.1417/0.23.1440.826@-621.-1417.2560.1417" timestamp="1583949080868" />
-    <state x="378" y="193" width="683" height="486" key="find.popup" timestamp="1584038263777">
+    <state x="378" y="193" width="683" height="486" key="find.popup" timestamp="1584044377727">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="378" y="193" width="683" height="486" key="find.popup/-621.-1417.2560.1417/0.23.1440.826@0.23.1440.826" timestamp="1584023801960" />
-    <state x="378" y="193" width="683" height="486" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1584038263777" />
+    <state x="378" y="193" width="683" height="486" key="find.popup/0.23.1440.826@0.23.1440.826" timestamp="1584044377727" />
     <state x="63" y="-1160" width="1192" height="1160" key="search.everywhere.popup" timestamp="1583951234149">
       <screen x="-621" y="-1417" width="2560" height="1417" />
     </state>
@@ -219,7 +302,27 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-contract-verifier/2.0.2.RELEASE/spring-cloud-contract-verifier-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/contract/verifier/messaging/internal/ContractVerifierMessaging.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/generated-test-sources/contracts/com/example/messagingrabbitmq/ContractVerifierTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/generated-test-sources/contracts/com/example/messagingrabbitmq/ContractVerifierTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="routingKeyCaptor" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

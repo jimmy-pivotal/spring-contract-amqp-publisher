@@ -1,8 +1,43 @@
 -------------------------------------------------------------------------------
 Test set: com.example.messagingrabbitmq.ContractVerifierTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.44 s <<< FAILURE! - in com.example.messagingrabbitmq.ContractVerifierTest
-validate_person_message_contract(com.example.messagingrabbitmq.ContractVerifierTest)  Time elapsed: 0.009 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.example.messagingrabbitmq.ContractVerifierTest.validate_person_message_contract(ContractVerifierTest.java:24)
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.256 s <<< FAILURE! - in com.example.messagingrabbitmq.ContractVerifierTest
+validate_person_message_contract(com.example.messagingrabbitmq.ContractVerifierTest)  Time elapsed: 0.201 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void org.springframework.amqp.rabbit.core.RabbitTemplate.send(java.lang.String, java.lang.String, org.springframework.amqp.core.Message, org.springframework.amqp.rabbit.support.CorrelationData)'
+	at com.example.messagingrabbitmq.ContractVerifierTest.validate_person_message_contract(ContractVerifierTest.java:27)
+
+validate_person_message_contract(com.example.messagingrabbitmq.ContractVerifierTest)  Time elapsed: 0.202 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnfinishedVerificationException: 
+
+Missing method call for verify(mock) here:
+-> at org.springframework.cloud.contract.verifier.messaging.amqp.SpringAmqpStubMessages.receive(SpringAmqpStubMessages.java:109)
+
+Example of correct verification:
+    verify(mock).doSomething()
+
+Also, this error might show up because you verify either of: final/private/equals()/hashCode() methods.
+Those methods *cannot* be stubbed/verified.
+Mocking methods declared on non-public parent classes is not supported.
+
+
+onUserIsOnline(com.example.messagingrabbitmq.ContractVerifierTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.mockito.exceptions.misusing.InvalidUseOfMatchersException: 
+
+Invalid use of argument matchers!
+3 matchers expected, 4 recorded:
+-> at org.springframework.cloud.contract.verifier.messaging.amqp.SpringAmqpStubMessages.receive(SpringAmqpStubMessages.java:109)
+-> at org.springframework.cloud.contract.verifier.messaging.amqp.SpringAmqpStubMessages.receive(SpringAmqpStubMessages.java:109)
+-> at org.springframework.cloud.contract.verifier.messaging.amqp.SpringAmqpStubMessages.receive(SpringAmqpStubMessages.java:110)
+-> at org.springframework.cloud.contract.verifier.messaging.amqp.SpringAmqpStubMessages.receive(SpringAmqpStubMessages.java:110)
+
+This exception may occur if matchers are combined with raw values:
+    //incorrect:
+    someMethod(anyObject(), "raw String");
+When using matchers, all arguments have to be provided by matchers.
+For example:
+    //correct:
+    someMethod(anyObject(), eq("String by matcher"));
+
+For more info see javadoc for Matchers class.
+
 

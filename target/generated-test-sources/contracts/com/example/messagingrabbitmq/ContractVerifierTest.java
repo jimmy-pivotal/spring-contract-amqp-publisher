@@ -24,12 +24,14 @@ public class ContractVerifierTest extends BaseContractTest {
 			onUserIsOnline();
 
 		// then:
-			ContractVerifierMessage response = contractVerifierMessaging.receive("spring-boot-exchange");
+			ContractVerifierMessage response = contractVerifierMessaging.receive("spring-boot");
 			assertThat(response).isNotNull();
 			assertThat(response.getHeader("contentType")).isNotNull();
 			assertThat(response.getHeader("contentType").toString()).isEqualTo("application/json");
 			assertThat(response.getHeader("__TypeId__")).isNotNull();
 			assertThat(response.getHeader("__TypeId__").toString()).isEqualTo("com.example.messagingrabbitmq.model.Person");
+			assertThat(response.getHeader("amqp_receivedRoutingKey")).isNotNull();
+			assertThat(response.getHeader("amqp_receivedRoutingKey").toString()).isEqualTo("foo");
 		// and:
 			DocumentContext parsedJson = JsonPath.parse(contractVerifierObjectMapper.writeValueAsString(response.getPayload()));
 			assertThatJson(parsedJson).field("['firstName']").isEqualTo("John");
